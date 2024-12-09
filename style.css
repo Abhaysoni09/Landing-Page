@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    position: relative;
+    height: 80%;
+    width: 75%;
+}
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+}
+img{
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+#one{
+    width: 0%;
+}
+.name{
+    width: 450px;
+    position: absolute;
+    top: 60%;
+    left: -7%;
+    height: 100px;
+    z-index: 999;
+    overflow: hidden;
+}
+.name h1{
+    position: absolute;
+    font-size: 6.5vw;
+    top: 100px;
+}
